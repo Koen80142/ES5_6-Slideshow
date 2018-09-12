@@ -71,7 +71,7 @@ function startSlide() {
 // Pause the automatic slideshow.
 function pauseSlide() {
     // Remove the data from the array to stop the looping of the slideshow.
-    for ( var t = 0; t < timeouts.length; t++ ) {
+    for ( let t = 0; t < timeouts.length; t++ ) {
         clearTimeout(timeouts[t]);
     }
     // Edit the attributes of the button for usability.
