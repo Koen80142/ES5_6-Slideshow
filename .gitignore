@@ -1,0 +1,6 @@
+# Ignore files with .json extension
+*.json
+# Ignore node_modules folder
+node_modules
+# Ignore Gruntfile javascript
+Gruntfile.js

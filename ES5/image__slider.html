@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/image__style.min.css"/>
+</head>
+<body>
+    <div class="slideshow__container">
+        <div class="slideshow">
+            <img class="slideshow__image" src="img/img1.jpg">
+        </div>
+        <div class="slideshow">
+            <img class="slideshow__image" src="img/img2.jpg">
+        </div>
+        <div class="slideshow">
+            <img class="slideshow__image" src="img/img3.jpg">
+        </div>
+        <div class="slideshow">
+            <img class="slideshow__image" src="img/img4.jpg">
+        </div>
+        <div class="slideshow__controls">
+            <button onclick="changeSlide(-1);" class="button--back">&laquo;</button>
+            <button onclick="startSlide();" class="button--control" value="play">start</button>
+            <button onclick="changeSlide(1);" class="button--forward">&raquo;</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="image__script.js"></script>
+</body>
+</html>

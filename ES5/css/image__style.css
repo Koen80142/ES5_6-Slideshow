@@ -1,0 +1,31 @@
+.button--back, .button--forward {
+  color: springgreen;
+  font-size: 16px; }
+  .button--back .button--control, .button--forward .button--control {
+    width: 30px;
+    height: 30px;
+    bottom: 50px;
+    border-radius: 4px; }
+
+.slideshow__container {
+  background-color: lavender;
+  margin: auto;
+  width: 49.93vw;
+  height: 58vh; }
+
+.slideshow {
+  border-width: 4px;
+  border-style: solid;
+  border-color: blueviolet; }
+  .slideshow__image {
+    height: 49.39vh;
+    width: 49.39vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black; }
+
+.slideshow__controls {
+  margin: auto;
+  width: 11.7%; }
+
+/*# sourceMappingURL=image__style.css.map */
